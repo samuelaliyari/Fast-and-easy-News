@@ -1,0 +1,69 @@
+main {
+	padding: 5%;
+	background-color: lavender;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.searchArea {
+	display: flex;
+	justify-content: center;
+	gap: 3vw;
+}
+
+.searchArea input,
+select,
+button {
+	background-color: bisque;
+	border: 2px solid black;
+	font-size: 1rem;
+	padding: 1% 4%;
+}
+.searchArea input:focus,
+select:focus,
+button:focus {
+	outline: none;
+}
+main img {
+	width: 80vh;
+	aspect-ratio: 3/2;
+	margin: 3rem auto;
+	object-fit: cover;
+	border: 2px darkblue solid;
+}
+
+.article {
+	background-color: rgba(206, 206, 246, 0.251);
+	padding: 5%;
+	margin-block: 1rem;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+a {
+	background-color: bisque;
+	border: 2px solid black;
+	font-size: 1rem;
+	padding: 1% 4%;
+}
+
+button:focus {
+	outline: none;
+}
+
+section {
+	padding: 5%;
+}
+
+h2 {
+	margin-block: 2rem;
+}
+h1 {
+	text-align: center;
+	width: 100%;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: #385976;
+}
